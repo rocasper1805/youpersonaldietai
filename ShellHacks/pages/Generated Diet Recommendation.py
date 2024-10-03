@@ -35,7 +35,7 @@ def set_background_image(png_file):
     st.markdown(page_bg_img, unsafe_allow_html=True)
 
 # Set the background image
-set_background_image('/Users/robertocastillo/ShellHacks/image2.jpg')
+set_background_image('image2.jpg')
 
 # Add content
 st.markdown("<div style='text-align: center;'><h1 style='color: #353535;'>Diet Recommendation:</h1></div>", unsafe_allow_html=True)
