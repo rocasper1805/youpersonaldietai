@@ -171,7 +171,7 @@ if st.button("Get Diet Recommendation"):
             st.session_state['diet_recommendation'] = response.text
 
             # Switch to page2
-            switch_page("/workspaces/youpersonaldietai/pages/Generated Diet Recommendation.py")
+            switch_page("pages/Generated Diet Recommendation.py")
 
         except Exception as e:
             st.write(f"An error occurred: {e}")
